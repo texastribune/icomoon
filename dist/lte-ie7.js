@@ -6,12 +6,8 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-			'icon-instagram-cam-icon' : '&#x49;',
-			'icon-twitter-bird-icon' : '&#x54;',
 			'icon-instagram-social-convo-icon' : '&#x69;',
-			'icon-twitter-social-convo-icon' : '&#x74;',
-			'icon-facebook-f-icon' : '&#x66;',
-			'icon-facebook-social-convo-icon' : '&#x46;'
+			'icon-instagram-cam-icon' : '&#x49;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
