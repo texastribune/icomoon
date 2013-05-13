@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-instagram-social-convo-icon, .icon-instagram-cam-icon {
+.icon-instagram-social-convo-icon, .icon-instagram-cam-icon, .icon-twitter-bird-icon, .icon-facebook-social-convo-icon, .icon-facebook-f-icon, .icon-twitter-social-convo-icon {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -42,4 +42,16 @@ you can use the generic selector below, but it's slower:
 }
 .icon-instagram-cam-icon:before {
 	content: "\49";
+}
+.icon-twitter-bird-icon:before {
+	content: "\54";
+}
+.icon-facebook-social-convo-icon:before {
+	content: "\66";
+}
+.icon-facebook-f-icon:before {
+	content: "\46";
+}
+.icon-twitter-social-convo-icon:before {
+	content: "\74";
 }

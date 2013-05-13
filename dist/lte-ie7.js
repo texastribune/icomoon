@@ -7,7 +7,11 @@ window.onload = function() {
 	}
 	var icons = {
 			'icon-instagram-social-convo-icon' : '&#x69;',
-			'icon-instagram-cam-icon' : '&#x49;'
+			'icon-instagram-cam-icon' : '&#x49;',
+			'icon-twitter-bird-icon' : '&#x54;',
+			'icon-facebook-social-convo-icon' : '&#x66;',
+			'icon-facebook-f-icon' : '&#x46;',
+			'icon-twitter-social-convo-icon' : '&#x74;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
