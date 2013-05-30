@@ -3,15 +3,38 @@
 window.onload = function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'texastribune-ico\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-			'icon-instagram-social-convo-icon' : '&#x69;',
-			'icon-instagram-cam-icon' : '&#x49;',
-			'icon-twitter-bird-icon' : '&#x54;',
-			'icon-facebook-social-convo-icon' : '&#x66;',
-			'icon-facebook-f-icon' : '&#x46;',
-			'icon-twitter-social-convo-icon' : '&#x74;'
+			'ico-twitter' : '&#x74;',
+			'ico-twitter-2' : '&#x54;',
+			'ico-instagram' : '&#x21;',
+			'ico-instagram-cam-icon' : '&#x22;',
+			'ico-instagram-social-convo-icon' : '&#x69;',
+			'ico-instagram-cam-icon-2' : '&#x49;',
+			'ico-star' : '&#xe001;',
+			'ico-thumbs-up' : '&#xe007;',
+			'ico-thumbs-up-2' : '&#xe008;',
+			'ico-facebook' : '&#xe002;',
+			'ico-twitter-3' : '&#xe00a;',
+			'ico-twitter-4' : '&#xe00b;',
+			'ico-google-plus' : '&#xe00d;',
+			'ico-google-plus-2' : '&#xe00e;',
+			'ico-vimeo' : '&#xe00f;',
+			'ico-vimeo2' : '&#xe010;',
+			'ico-youtube' : '&#xe011;',
+			'ico-youtube-2' : '&#xe012;',
+			'ico-feed' : '&#xe013;',
+			'ico-feed-2' : '&#xe014;',
+			'ico-flickr' : '&#xe00c;',
+			'ico-flickr-2' : '&#xe015;',
+			'ico-flickr-3' : '&#xe016;',
+			'ico-github' : '&#xe017;',
+			'ico-github-2' : '&#xe018;',
+			'ico-github-3' : '&#xe019;',
+			'ico-tumblr' : '&#xe01a;',
+			'ico-tumblr-2' : '&#xe01b;',
+			'ico-facebook-2' : '&#x66;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
@@ -25,7 +48,7 @@ window.onload = function() {
 			addIcon(el, attr);
 		}
 		c = el.className;
-		c = c.match(/icon-[^\s'"]+/);
+		c = c.match(/ico-[^\s'"]+/);
 		if (c && icons[c[0]]) {
 			addIcon(el, icons[c[0]]);
 		}

@@ -1,17 +1,17 @@
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot');
-	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.woff') format('woff'),
-		url('fonts/icomoon.ttf') format('truetype'),
-		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-family: 'texastribune-ico';
+	src:url('fonts/texastribune-ico.eot');
+	src:url('fonts/texastribune-ico.eot?#iefix') format('embedded-opentype'),
+		url('fonts/texastribune-ico.woff') format('woff'),
+		url('fonts/texastribune-ico.ttf') format('truetype'),
+		url('fonts/texastribune-ico.svg#texastribune-ico') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-	font-family: 'icomoon';
+	font-family: 'texastribune-ico';
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
@@ -25,10 +25,10 @@
 /*
 Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
-[class*="icon-"] {
+[class*="ico-"] {
 */
-.icon-instagram-social-convo-icon, .icon-instagram-cam-icon, .icon-twitter-bird-icon, .icon-facebook-social-convo-icon, .icon-facebook-f-icon, .icon-twitter-social-convo-icon {
-	font-family: 'icomoon';
+.ico-twitter, .ico-twitter-2, .ico-instagram, .ico-instagram-cam-icon, .ico-instagram-social-convo-icon, .ico-instagram-cam-icon-2, .ico-star, .ico-thumbs-up, .ico-thumbs-up-2, .ico-facebook, .ico-twitter-3, .ico-twitter-4, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-2 {
+	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -37,21 +37,90 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-instagram-social-convo-icon:before {
-	content: "\69";
+.ico-twitter:before {
+	content: "\74";
 }
-.icon-instagram-cam-icon:before {
-	content: "\49";
-}
-.icon-twitter-bird-icon:before {
+.ico-twitter-2:before {
 	content: "\54";
 }
-.icon-facebook-social-convo-icon:before {
+.ico-instagram:before {
+	content: "\21";
+}
+.ico-instagram-cam-icon:before {
+	content: "\22";
+}
+.ico-instagram-social-convo-icon:before {
+	content: "\69";
+}
+.ico-instagram-cam-icon-2:before {
+	content: "\49";
+}
+.ico-star:before {
+	content: "\e001";
+}
+.ico-thumbs-up:before {
+	content: "\e007";
+}
+.ico-thumbs-up-2:before {
+	content: "\e008";
+}
+.ico-facebook:before {
+	content: "\e002";
+}
+.ico-twitter-3:before {
+	content: "\e00a";
+}
+.ico-twitter-4:before {
+	content: "\e00b";
+}
+.ico-google-plus:before {
+	content: "\e00d";
+}
+.ico-google-plus-2:before {
+	content: "\e00e";
+}
+.ico-vimeo:before {
+	content: "\e00f";
+}
+.ico-vimeo2:before {
+	content: "\e010";
+}
+.ico-youtube:before {
+	content: "\e011";
+}
+.ico-youtube-2:before {
+	content: "\e012";
+}
+.ico-feed:before {
+	content: "\e013";
+}
+.ico-feed-2:before {
+	content: "\e014";
+}
+.ico-flickr:before {
+	content: "\e00c";
+}
+.ico-flickr-2:before {
+	content: "\e015";
+}
+.ico-flickr-3:before {
+	content: "\e016";
+}
+.ico-github:before {
+	content: "\e017";
+}
+.ico-github-2:before {
+	content: "\e018";
+}
+.ico-github-3:before {
+	content: "\e019";
+}
+.ico-tumblr:before {
+	content: "\e01a";
+}
+.ico-tumblr-2:before {
+	content: "\e01b";
+}
+.ico-facebook-2:before {
 	content: "\66";
-}
-.icon-facebook-f-icon:before {
-	content: "\46";
-}
-.icon-twitter-social-convo-icon:before {
-	content: "\74";
 }
