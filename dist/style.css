@@ -53,7 +53,7 @@ you can use the generic selector below, but it's slower:
 	content: "\49";
 }
 .ico-star:before {
-	content: "\e001";
+	content: "\2605";
 }
 .ico-thumbs-up:before {
 	content: "\e007";

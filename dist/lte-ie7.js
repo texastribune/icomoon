@@ -11,7 +11,7 @@ window.onload = function() {
 			'ico-instagram' : '&#x22;',
 			'ico-instagram-talk' : '&#x69;',
 			'ico-instagram-reverse' : '&#x49;',
-			'ico-star' : '&#xe001;',
+			'ico-star' : '&#x2605;',
 			'ico-thumbs-up' : '&#xe007;',
 			'ico-thumbs-down' : '&#xe008;',
 			'ico-facebook' : '&#xe002;',
