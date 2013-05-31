@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-twitter-talk, .ico-twitter-bird, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter, .ico-twitter-reverse, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-facebook-reverse {
+.ico-twitter-talk, .ico-twitter-bird, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter, .ico-twitter-reverse, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-flickr-reverse, .ico-flickr, .ico-flickr-2, .ico-github-octocat, .ico-github, .ico-github-reverse, .ico-tumblr, .ico-tumblr-reverse, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-facebook-reverse {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -73,49 +73,46 @@ you can use the generic selector below, but it's slower:
 .ico-google-plus:before {
 	content: "\e00d";
 }
-.ico-google-plus-2:before {
-	content: "\e00e";
-}
 .ico-vimeo:before {
 	content: "\e00f";
 }
-.ico-vimeo2:before {
+.ico-vimeo-reverse:before {
 	content: "\e010";
 }
-.ico-youtube:before {
+.ico-youtube-reverse:before {
 	content: "\e011";
 }
-.ico-youtube-2:before {
+.ico-youtube:before {
 	content: "\e012";
 }
 .ico-feed:before {
 	content: "\e013";
 }
-.ico-feed-2:before {
+.ico-feed-reverse:before {
 	content: "\e014";
 }
-.ico-flickr:before {
+.ico-flickr-reverse:before {
 	content: "\e00c";
 }
-.ico-flickr-2:before {
+.ico-flickr:before {
 	content: "\e015";
 }
-.ico-flickr-3:before {
+.ico-flickr-2:before {
 	content: "\e016";
 }
-.ico-github:before {
+.ico-github-octocat:before {
 	content: "\e017";
 }
-.ico-github-2:before {
+.ico-github:before {
 	content: "\e018";
 }
-.ico-github-3:before {
+.ico-github-reverse:before {
 	content: "\e019";
 }
 .ico-tumblr:before {
 	content: "\e01a";
 }
-.ico-tumblr-2:before {
+.ico-tumblr-reverse:before {
 	content: "\e01b";
 }
 .ico-facebook-talk:before {
