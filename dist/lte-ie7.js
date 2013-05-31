@@ -8,13 +8,12 @@ window.onload = function() {
 	var icons = {
 			'ico-twitter' : '&#x74;',
 			'ico-twitter-2' : '&#x54;',
-			'ico-instagram' : '&#x21;',
-			'ico-instagram-cam-icon' : '&#x22;',
-			'ico-instagram-social-convo-icon' : '&#x69;',
-			'ico-instagram-cam-icon-2' : '&#x49;',
+			'ico-instagram' : '&#x22;',
+			'ico-instagram-talk' : '&#x69;',
+			'ico-instagram-reverse' : '&#x49;',
 			'ico-star' : '&#xe001;',
 			'ico-thumbs-up' : '&#xe007;',
-			'ico-thumbs-up-2' : '&#xe008;',
+			'ico-thumbs-down' : '&#xe008;',
 			'ico-facebook' : '&#xe002;',
 			'ico-twitter-3' : '&#xe00a;',
 			'ico-twitter-4' : '&#xe00b;',
@@ -34,7 +33,8 @@ window.onload = function() {
 			'ico-github-3' : '&#xe019;',
 			'ico-tumblr' : '&#xe01a;',
 			'ico-tumblr-2' : '&#xe01b;',
-			'ico-facebook-2' : '&#x66;'
+			'ico-facebook-2' : '&#x66;',
+			'ico-instagram-talk-reverse' : '&#x21;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

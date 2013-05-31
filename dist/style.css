@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-twitter, .ico-twitter-2, .ico-instagram, .ico-instagram-cam-icon, .ico-instagram-social-convo-icon, .ico-instagram-cam-icon-2, .ico-star, .ico-thumbs-up, .ico-thumbs-up-2, .ico-facebook, .ico-twitter-3, .ico-twitter-4, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-2 {
+.ico-twitter, .ico-twitter-2, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter-3, .ico-twitter-4, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-2, .ico-instagram-talk-reverse {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -44,15 +44,12 @@ you can use the generic selector below, but it's slower:
 	content: "\54";
 }
 .ico-instagram:before {
-	content: "\21";
-}
-.ico-instagram-cam-icon:before {
 	content: "\22";
 }
-.ico-instagram-social-convo-icon:before {
+.ico-instagram-talk:before {
 	content: "\69";
 }
-.ico-instagram-cam-icon-2:before {
+.ico-instagram-reverse:before {
 	content: "\49";
 }
 .ico-star:before {
@@ -61,7 +58,7 @@ you can use the generic selector below, but it's slower:
 .ico-thumbs-up:before {
 	content: "\e007";
 }
-.ico-thumbs-up-2:before {
+.ico-thumbs-down:before {
 	content: "\e008";
 }
 .ico-facebook:before {
@@ -123,4 +120,7 @@ you can use the generic selector below, but it's slower:
 }
 .ico-facebook-2:before {
 	content: "\66";
+}
+.ico-instagram-talk-reverse:before {
+	content: "\21";
 }
