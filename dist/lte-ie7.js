@@ -6,8 +6,8 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'texastribune-ico\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-			'ico-twitter' : '&#x74;',
-			'ico-twitter-2' : '&#x54;',
+			'ico-twitter-talk' : '&#x74;',
+			'ico-twitter-bird' : '&#x54;',
 			'ico-instagram' : '&#x22;',
 			'ico-instagram-talk' : '&#x69;',
 			'ico-instagram-reverse' : '&#x49;',
@@ -15,8 +15,8 @@ window.onload = function() {
 			'ico-thumbs-up' : '&#xe007;',
 			'ico-thumbs-down' : '&#xe008;',
 			'ico-facebook' : '&#xe002;',
-			'ico-twitter-3' : '&#xe00a;',
-			'ico-twitter-4' : '&#xe00b;',
+			'ico-twitter' : '&#xe00a;',
+			'ico-twitter-reverse' : '&#xe00b;',
 			'ico-google-plus' : '&#xe00d;',
 			'ico-google-plus-2' : '&#xe00e;',
 			'ico-vimeo' : '&#xe00f;',

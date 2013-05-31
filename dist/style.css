@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-twitter, .ico-twitter-2, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter-3, .ico-twitter-4, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-2, .ico-instagram-talk-reverse {
+.ico-twitter-talk, .ico-twitter-bird, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter, .ico-twitter-reverse, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-2, .ico-instagram-talk-reverse {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -37,10 +37,10 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.ico-twitter:before {
+.ico-twitter-talk:before {
 	content: "\74";
 }
-.ico-twitter-2:before {
+.ico-twitter-bird:before {
 	content: "\54";
 }
 .ico-instagram:before {
@@ -64,10 +64,10 @@ you can use the generic selector below, but it's slower:
 .ico-facebook:before {
 	content: "\e002";
 }
-.ico-twitter-3:before {
+.ico-twitter:before {
 	content: "\e00a";
 }
-.ico-twitter-4:before {
+.ico-twitter-reverse:before {
 	content: "\e00b";
 }
 .ico-google-plus:before {
