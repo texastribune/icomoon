@@ -6,17 +6,20 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'texastribune-ico\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+			'ico-star' : '&#x2605;',
 			'ico-twitter-talk' : '&#x74;',
 			'ico-twitter-bird' : '&#x54;',
-			'ico-instagram' : '&#x22;',
-			'ico-instagram-talk' : '&#x69;',
-			'ico-instagram-reverse' : '&#x49;',
-			'ico-star' : '&#x2605;',
-			'ico-thumbs-up' : '&#xe007;',
-			'ico-thumbs-down' : '&#xe008;',
-			'ico-facebook' : '&#xe002;',
 			'ico-twitter' : '&#xe00a;',
 			'ico-twitter-reverse' : '&#xe00b;',
+			'ico-facebook-talk' : '&#x66;',
+			'ico-facebook' : '&#xe002;',
+			'ico-facebook-reverse' : '&#xe005;',
+			'ico-instagram-talk-reverse' : '&#x21;',
+			'ico-instagram-talk' : '&#x69;',
+			'ico-instagram' : '&#x22;',
+			'ico-instagram-reverse' : '&#x49;',
+			'ico-thumbs-up' : '&#xe007;',
+			'ico-thumbs-down' : '&#xe008;',
 			'ico-google-plus' : '&#xe00d;',
 			'ico-vimeo' : '&#xe00f;',
 			'ico-vimeo-reverse' : '&#xe010;',
@@ -31,10 +34,7 @@ window.onload = function() {
 			'ico-github' : '&#xe018;',
 			'ico-github-reverse' : '&#xe019;',
 			'ico-tumblr' : '&#xe01a;',
-			'ico-tumblr-reverse' : '&#xe01b;',
-			'ico-facebook-talk' : '&#x66;',
-			'ico-instagram-talk-reverse' : '&#x21;',
-			'ico-facebook-reverse' : '&#xe005;'
+			'ico-tumblr-reverse' : '&#xe01b;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

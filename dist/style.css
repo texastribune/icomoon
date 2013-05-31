@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-twitter-talk, .ico-twitter-bird, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter, .ico-twitter-reverse, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-flickr-reverse, .ico-flickr, .ico-flickr-2, .ico-github-octocat, .ico-github, .ico-github-reverse, .ico-tumblr, .ico-tumblr-reverse, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-facebook-reverse {
+.ico-star, .ico-twitter-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-reverse, .ico-facebook-talk, .ico-facebook, .ico-facebook-reverse, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-instagram, .ico-instagram-reverse, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-flickr-reverse, .ico-flickr, .ico-flickr-2, .ico-github-octocat, .ico-github, .ico-github-reverse, .ico-tumblr, .ico-tumblr-reverse {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -37,38 +37,47 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
+.ico-star:before {
+	content: "\2605";
+}
 .ico-twitter-talk:before {
 	content: "\74";
 }
 .ico-twitter-bird:before {
 	content: "\54";
 }
-.ico-instagram:before {
-	content: "\22";
+.ico-twitter:before {
+	content: "\e00a";
+}
+.ico-twitter-reverse:before {
+	content: "\e00b";
+}
+.ico-facebook-talk:before {
+	content: "\66";
+}
+.ico-facebook:before {
+	content: "\e002";
+}
+.ico-facebook-reverse:before {
+	content: "\e005";
+}
+.ico-instagram-talk-reverse:before {
+	content: "\21";
 }
 .ico-instagram-talk:before {
 	content: "\69";
 }
+.ico-instagram:before {
+	content: "\22";
+}
 .ico-instagram-reverse:before {
 	content: "\49";
-}
-.ico-star:before {
-	content: "\2605";
 }
 .ico-thumbs-up:before {
 	content: "\e007";
 }
 .ico-thumbs-down:before {
 	content: "\e008";
-}
-.ico-facebook:before {
-	content: "\e002";
-}
-.ico-twitter:before {
-	content: "\e00a";
-}
-.ico-twitter-reverse:before {
-	content: "\e00b";
 }
 .ico-google-plus:before {
 	content: "\e00d";
@@ -114,13 +123,4 @@ you can use the generic selector below, but it's slower:
 }
 .ico-tumblr-reverse:before {
 	content: "\e01b";
-}
-.ico-facebook-talk:before {
-	content: "\66";
-}
-.ico-instagram-talk-reverse:before {
-	content: "\21";
-}
-.ico-facebook-reverse:before {
-	content: "\e005";
 }
