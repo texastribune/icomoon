@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-twitter-talk, .ico-twitter-bird, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter, .ico-twitter-reverse, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-2, .ico-instagram-talk-reverse {
+.ico-twitter-talk, .ico-twitter-bird, .ico-instagram, .ico-instagram-talk, .ico-instagram-reverse, .ico-star, .ico-thumbs-up, .ico-thumbs-down, .ico-facebook, .ico-twitter, .ico-twitter-reverse, .ico-google-plus, .ico-google-plus-2, .ico-vimeo, .ico-vimeo2, .ico-youtube, .ico-youtube-2, .ico-feed, .ico-feed-2, .ico-flickr, .ico-flickr-2, .ico-flickr-3, .ico-github, .ico-github-2, .ico-github-3, .ico-tumblr, .ico-tumblr-2, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-facebook-reverse {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -118,9 +118,12 @@ you can use the generic selector below, but it's slower:
 .ico-tumblr-2:before {
 	content: "\e01b";
 }
-.ico-facebook-2:before {
+.ico-facebook-talk:before {
 	content: "\66";
 }
 .ico-instagram-talk-reverse:before {
 	content: "\21";
+}
+.ico-facebook-reverse:before {
+	content: "\e005";
 }

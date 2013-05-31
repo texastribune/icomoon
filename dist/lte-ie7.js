@@ -33,8 +33,9 @@ window.onload = function() {
 			'ico-github-3' : '&#xe019;',
 			'ico-tumblr' : '&#xe01a;',
 			'ico-tumblr-2' : '&#xe01b;',
-			'ico-facebook-2' : '&#x66;',
-			'ico-instagram-talk-reverse' : '&#x21;'
+			'ico-facebook-talk' : '&#x66;',
+			'ico-instagram-talk-reverse' : '&#x21;',
+			'ico-facebook-reverse' : '&#xe005;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
