@@ -34,7 +34,8 @@ window.onload = function() {
 			'ico-github' : '&#xe018;',
 			'ico-github-reverse' : '&#xe019;',
 			'ico-tumblr' : '&#xe01a;',
-			'ico-tumblr-reverse' : '&#xe01b;'
+			'ico-tumblr-reverse' : '&#xe01b;',
+			'ico-share-alt' : '&#xf064;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

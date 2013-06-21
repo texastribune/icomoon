@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-star, .ico-twitter-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-reverse, .ico-facebook-talk, .ico-facebook, .ico-facebook-reverse, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-instagram, .ico-instagram-reverse, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-flickr-reverse, .ico-flickr, .ico-flickr-2, .ico-github-octocat, .ico-github, .ico-github-reverse, .ico-tumblr, .ico-tumblr-reverse {
+.ico-star, .ico-twitter-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-reverse, .ico-facebook-talk, .ico-facebook, .ico-facebook-reverse, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-instagram, .ico-instagram-reverse, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-flickr-reverse, .ico-flickr, .ico-flickr-2, .ico-github-octocat, .ico-github, .ico-github-reverse, .ico-tumblr, .ico-tumblr-reverse, .ico-share-alt {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -123,4 +123,7 @@ you can use the generic selector below, but it's slower:
 }
 .ico-tumblr-reverse:before {
 	content: "\e01b";
+}
+.ico-share-alt:before {
+	content: "\f064";
 }
