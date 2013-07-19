@@ -110,5 +110,5 @@ you can use the generic selector below, but it's slower:
 	content: "\3c";
 }
 .ico-flex-next:before {
-	content: "\e001";
+	content: "\3e";
 }

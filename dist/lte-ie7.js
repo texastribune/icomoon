@@ -30,7 +30,7 @@ window.onload = function() {
 			'ico-share-alt' : '&#xf064;',
 			'ico-instagram-2' : '&#xf16d;',
 			'ico-flex-prev' : '&#x3c;',
-			'ico-flex-next' : '&#xe001;'
+			'ico-flex-next' : '&#x3e;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
