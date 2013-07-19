@@ -28,7 +28,9 @@ window.onload = function() {
 			'ico-feed' : '&#xe013;',
 			'ico-feed-reverse' : '&#xe014;',
 			'ico-share-alt' : '&#xf064;',
-			'ico-instagram-2' : '&#xf16d;'
+			'ico-instagram-2' : '&#xf16d;',
+			'ico-flex-prev' : '&#x3c;',
+			'ico-flex-next' : '&#xe001;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
