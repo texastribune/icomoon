@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-star, .ico-twitter-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-sign, .ico-facebook-talk, .ico-facebook, .ico-facebook-sign, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-instagram, .ico-instagram-reverse, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-share-alt, .ico-instagram-2, .ico-flex-prev, .ico-flex-next {
+.ico-star, .ico-twitter-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-sign, .ico-facebook-talk, .ico-facebook, .ico-facebook-sign, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-instagram, .ico-instagram-reverse, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-share-alt, .ico-instagram-2, .ico-flex-prev, .ico-flex-next, .ico-tt-logo {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -111,4 +111,7 @@ you can use the generic selector below, but it's slower:
 }
 .ico-flex-next:before {
 	content: "\3e";
+}
+.ico-tt-logo:before {
+	content: "\e823";
 }
