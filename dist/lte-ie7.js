@@ -31,7 +31,11 @@ window.onload = function() {
 			'ico-instagram-2' : '&#xf16d;',
 			'ico-flex-prev' : '&#x3c;',
 			'ico-flex-next' : '&#x3e;',
-			'ico-tt-logo' : '&#xe823;'
+			'ico-tt-logo' : '&#xe823;',
+			'ico-arrow-up' : '&#xf062;',
+			'ico-arrow-left' : '&#xf060;',
+			'ico-arrow-right' : '&#xf061;',
+			'ico-arrow-down' : '&#xf063;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
