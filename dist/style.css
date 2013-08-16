@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-star, .ico-twitter-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-sign, .ico-facebook-talk, .ico-facebook, .ico-facebook-sign, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-instagram, .ico-instagram-reverse, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-share-alt, .ico-instagram-2, .ico-flex-prev, .ico-flex-next, .ico-tt-logo, .ico-arrow-up, .ico-arrow-left, .ico-arrow-right, .ico-arrow-down {
+.ico-star, .ico-tt-logo, .ico-twitter-talk, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-sign, .ico-facebook, .ico-facebook-sign, .ico-instagram, .ico-instagram-reverse, .ico-instagram-2, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-share-alt, .ico-flex-prev, .ico-flex-next, .ico-arrow-up, .ico-arrow-left, .ico-arrow-right, .ico-arrow-down {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -40,8 +40,20 @@ you can use the generic selector below, but it's slower:
 .ico-star:before {
 	content: "\2605";
 }
+.ico-tt-logo:before {
+	content: "\e823";
+}
 .ico-twitter-talk:before {
 	content: "\74";
+}
+.ico-facebook-talk:before {
+	content: "\66";
+}
+.ico-instagram-talk-reverse:before {
+	content: "\21";
+}
+.ico-instagram-talk:before {
+	content: "\69";
 }
 .ico-twitter-bird:before {
 	content: "\54";
@@ -52,26 +64,20 @@ you can use the generic selector below, but it's slower:
 .ico-twitter-sign:before {
 	content: "\f081";
 }
-.ico-facebook-talk:before {
-	content: "\66";
-}
 .ico-facebook:before {
 	content: "\f09a";
 }
 .ico-facebook-sign:before {
 	content: "\f082";
 }
-.ico-instagram-talk-reverse:before {
-	content: "\21";
-}
-.ico-instagram-talk:before {
-	content: "\69";
-}
 .ico-instagram:before {
 	content: "\22";
 }
 .ico-instagram-reverse:before {
 	content: "\49";
+}
+.ico-instagram-2:before {
+	content: "\f16d";
 }
 .ico-thumbs-up:before {
 	content: "\e007";
@@ -103,17 +109,11 @@ you can use the generic selector below, but it's slower:
 .ico-share-alt:before {
 	content: "\f064";
 }
-.ico-instagram-2:before {
-	content: "\f16d";
-}
 .ico-flex-prev:before {
 	content: "\3c";
 }
 .ico-flex-next:before {
 	content: "\3e";
-}
-.ico-tt-logo:before {
-	content: "\e823";
 }
 .ico-arrow-up:before {
 	content: "\f062";
