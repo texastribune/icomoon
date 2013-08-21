@@ -7,6 +7,7 @@ window.onload = function() {
 	}
 	var icons = {
 			'ico-star' : '&#x2605;',
+			'ico-tt-logo' : '&#xe823;',
 			'ico-twitter-talk' : '&#x74;',
 			'ico-facebook-talk' : '&#x66;',
 			'ico-instagram-talk-reverse' : '&#x21;',
@@ -34,8 +35,7 @@ window.onload = function() {
 			'ico-arrow-up' : '&#xf062;',
 			'ico-arrow-left' : '&#xf060;',
 			'ico-arrow-right' : '&#xf061;',
-			'ico-arrow-down' : '&#xf063;',
-			'ico-tt-logo' : '&#xe823;'
+			'ico-arrow-down' : '&#xf063;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

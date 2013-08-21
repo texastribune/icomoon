@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="ico-"] {
 */
-.ico-star, .ico-twitter-talk, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-sign, .ico-facebook, .ico-facebook-sign, .ico-instagram, .ico-instagram-reverse, .ico-instagram-2, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-share-alt, .ico-flex-prev, .ico-flex-next, .ico-arrow-up, .ico-arrow-left, .ico-arrow-right, .ico-arrow-down, .ico-tt-logo {
+.ico-star, .ico-tt-logo, .ico-twitter-talk, .ico-facebook-talk, .ico-instagram-talk-reverse, .ico-instagram-talk, .ico-twitter-bird, .ico-twitter, .ico-twitter-sign, .ico-facebook, .ico-facebook-sign, .ico-instagram, .ico-instagram-reverse, .ico-instagram-2, .ico-thumbs-up, .ico-thumbs-down, .ico-google-plus, .ico-vimeo, .ico-vimeo-reverse, .ico-youtube-reverse, .ico-youtube, .ico-feed, .ico-feed-reverse, .ico-share-alt, .ico-flex-prev, .ico-flex-next, .ico-arrow-up, .ico-arrow-left, .ico-arrow-right, .ico-arrow-down {
 	font-family: 'texastribune-ico';
 	speak: none;
 	font-style: normal;
@@ -39,6 +39,9 @@ you can use the generic selector below, but it's slower:
 }
 .ico-star:before {
 	content: "\2605";
+}
+.ico-tt-logo:before {
+	content: "\e823";
 }
 .ico-twitter-talk:before {
 	content: "\74";
@@ -123,7 +126,4 @@ you can use the generic selector below, but it's slower:
 }
 .ico-arrow-down:before {
 	content: "\f063";
-}
-.ico-tt-logo:before {
-	content: "\e823";
 }
