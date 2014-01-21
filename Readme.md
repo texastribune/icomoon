@@ -29,6 +29,13 @@ See http://texastribune.github.io/icomoon/dist/ for a preview of the font.
   2. added livestream icon, tt-livestream
   3. updated `-reverse`/`-sign` class names to be more consistent
   4. deleted duplicate icons (`twitter` and `twitter-bird`)
+* Version 0.5:
+  1. added tt logo bug
+* Version 0.4:
+  1. added flexslider nav
+* Version 0.3:
+  1. add share-alt
+  2. font-awesome-ize the icons
 * Version 0.2:
   1. added a copy of _Best and Worst_ game (game uses another font icon)
   2. added some other icons that we currently use on the site
