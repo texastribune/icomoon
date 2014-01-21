@@ -1,6 +1,8 @@
 # Custom Icon Font for The Texas Tribune
 
-See http://texastribune.github.io/icomoon/dist/ for a preview of the font.
+See [demo site][demo] for a preview of the font.
+
+  [demo]: http://texastribune.github.io/icomoon/texastribune-ico/demo.html
 
 
 ## IcoMoon Instructions
